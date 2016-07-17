@@ -2,7 +2,12 @@
 ## functions do
 
 ## Write a short comment describing this function
-## this function creates a matrix object that can cache an inverse of itself
+
+##comment describing function directly below
+## this function creates a "special" matrix object that can cache an
+## inverse of itself. 
+##Caching the inverse saves computational time and prevents the program
+## from repeatedly computing the the code
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
@@ -19,6 +24,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 ## Write a short comment describing this function
   
+## comment describing function below 
+
 ## this solve function computes the inverse of the matirx created by the
 ## makeCacheMatrix function, but if the inverse has been perviously calculated
 ## within the same matrix then the function should retrieve inversed matrix
